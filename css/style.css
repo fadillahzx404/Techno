@@ -1,0 +1,642 @@
+body{
+    font-family:arial;
+    font-size:12px;
+    color:#1e5474;
+    background:#F7F7F7;
+    margin:0px;
+}
+
+#container {
+    width: 1100px;
+    height: auto;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+#container #header {
+    margin-top: 10px;
+}
+
+#container #header #menu {
+    background: #1e5474;
+    padding: 5px 10px;
+    overflow: hidden;
+}
+
+#container #header #menu #user {
+    float: left;
+    color: white;
+}
+
+#container #header #menu #user a {
+    color: white;
+    padding-right: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#container #header #menu #button-keranjang {
+    float: right;
+    background: orange;
+    padding: 2px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+#container #header #menu #button-keranjang img {
+    vertical-align: bottom;
+}
+
+#container #footer {
+    background: #1e5475;
+    padding: 10px 10px;
+    height: 235px;
+    width: auto;
+    margin: 10px;
+}
+
+#container #footer p {
+    color: white;
+    text-align: left;
+}
+
+#container #content {
+    padding: 10px 0px;
+    overflow: hidden;
+}
+
+#container-user-akses {
+    width: 350px;
+    height: auto;
+    margin: 50px auto;
+}
+
+.element-form {
+    margin-bottom: 15px;
+}
+
+.element-form label {
+    display: block;
+    font-weight: bold;
+}
+
+.element-form span {
+    display: block;
+}
+
+.element-form span input[type="text"],
+.element-form span input[type="password"],
+.element-form span textarea,
+.element-form span select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.element-form span input[type="submit"] {
+    background: #1e5474;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 3px;
+    font-size: 9px;
+    cursor: pointer;
+}
+
+.element-form span input[type="submit"]:hover{
+    background:orange;
+}
+
+.notif {
+    background: #1e5474;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
+#bg-page-profile {
+    overflow: hidden;
+}
+
+#menu-profile {
+    float: left;
+    width: 245px;
+    background: #1e5474;
+}
+
+#menu-profile ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#menu-profile ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+#menu-profile ul li a:hover,
+#menu-profile ul li a.active {
+    background:orange;
+}
+
+#profile-content {
+    float: left;
+    width: 835px;
+    padding: 10px;
+    background: white;
+}
+
+.table-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-list tr {
+    border-bottom: 1px solid #1e5474;
+}
+
+.table-list tr.baris-title {
+    background: #E6E6E6;
+}
+
+.table-list tr th,
+.table-list tr td {
+    padding: 10px 7px;
+}
+
+.kolom-nomor {
+    width: 20px;
+    text-align: center;
+}
+
+
+.tengah {
+    text-align: center;
+}
+
+.kiri {
+    text-align: left;
+}
+
+.kanan {
+    text-align: right;
+}
+
+
+#frame-tambah {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.tombol-action {
+    background: #1e5474;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 4px;
+    font-size: 9px;
+    display: block;
+    float: right;
+}
+
+.tombol-action:hover {
+    background:orange;
+}
+
+#kiri {
+    width: 250px;
+    height: 160px;
+    float: left;
+}
+
+#menu-kategori ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu-kategori ul li {
+    margin-bottom: 5px;
+}
+
+#menu-kategori ul li a {
+    display: block;
+    padding: 10px;
+    background: white;
+    color: #1e5474;
+    text-decoration: none;
+}
+
+#menu-kategori ul li a:hover,
+#menu-kategori ul li a.active {
+    background:#e8e8e8
+}
+
+#kanan {
+    width: 840px;
+    height: auto;
+    float: left;
+    padding: 5px 5px;
+    margin-left: 250px;
+    margin-top: -109px;
+}
+
+#kanan #frame-barang ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#kanan #frame-barang ul li {
+    width: 253px;
+    background: white;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+
+#kanan #frame-barang ul li .price {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#kanan #frame-barang ul li a img {
+    display: block;
+    width: 220px;
+    margin-inline: auto;
+}
+
+#kanan #frame-barang ul li .keterangan-gambar {
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 11px 0px;
+    height: 60px;
+}
+
+#kanan #frame-barang ul li .keterangan-gambar p {
+    text-align: center;
+    margin: 5px 0px;
+}
+
+#kanan #frame-barang ul li .keterangan-gambar p a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#kanan #frame-barang ul li .keterangan-gambar span {
+    display: block;
+    text-align: center;
+}
+
+#kanan #frame-barang ul li .button-add-cart {
+    text-align: center;
+}
+
+#kanan #frame-barang ul li .button-add-cart a {
+    background: #1e5474;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+#kanan #frame-barang ul li .button-add-cart a:hover {
+    background:orange;
+}
+
+#detail-barang {
+    background: white;
+    padding: 15px;
+}
+
+#detail-barang h2 {
+    margin-top: 0px;
+}
+
+#detail-barang #frame-gambar {
+    background: #FBFBFB;
+    padding: 20px;
+}
+
+#detail-barang #frame-gambar img {
+    display: block;
+    margin: 0px auto;
+}
+
+#detail-barang #frame-harga {
+    margin: 15px 0px;
+}
+
+#detail-barang #frame-harga span {
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+}
+
+#detail-barang #frame-harga a {
+    background: #1e5474;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline;
+    float: right;
+    border-radius: 3px;
+}
+
+#detail-barang #frame-harga a:hover {
+    background:orange
+}
+
+#detail-barang #keterangan {
+    margin: 20px 0px;
+}
+
+.total-barang {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.update-quantity {
+    width: 30px;
+    text-align: center;
+}
+
+
+
+.kanan.hapus_item {
+    position: relative;
+}
+
+.kanan.hapus_item a {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-decoration: none;
+    color: #1e5474;
+}
+
+#frame-button-keranjang a {
+    background: #1e5474;
+    color: white;
+    text-decoration: none;
+    padding: 7px 20px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#lanjut-belanja {
+    float: left;
+}
+
+#lanjut-pemesanan {
+    float: right;
+}
+
+#frame-data-pengiriman {float: left;width: 500px;margin-right: 20px;margin-left: 10px;}
+
+#frame-data-detail {
+    float: left;
+    width: 560px;
+}
+
+#frame-detail-order {
+    border: 1px solid grey;
+}
+
+#frame-form-pengiriman {
+    border: 1px solid grey;
+    padding: 25px;
+}
+
+h3.label-data-pengiriman {
+    border: 1px solid grey;
+    padding: 10px 7px;
+    margin: 0px;
+}
+
+ul.pagination {
+    margin: 10px 0px 0px 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+ul.pagination li {
+    float: left;
+}
+
+ul.pagination li a {
+    margin-right: 10px;
+    border: 1px solid #1e5475;
+    padding: 5px 7px;
+    text-decoration: none;
+}
+
+ul.pagination li a:hover {
+    font-weight:bold;
+}
+
+ul.pagination li a.active{
+    background: #1e5475;
+    color:  white;
+}
+
+#frame-tambah #left {
+    float: left;
+}
+
+#frame-tambah #right {
+    float: right;
+}
+
+.label-password {
+    display: flex;
+    justify-content: space-between;
+}
+div#footer {
+    background: #1e5474;
+    color: white;
+    padding: 10px 10px;
+    display: grid;
+    grid-template-columns: 40% 38% auto;
+}
+
+h6 {
+    font-style: normal;
+    padding: 0em 4em;
+    margin: 1em 1em;
+}
+
+.tentang {
+    float: left;
+    /* padding: 0px 0px; */
+    /* margin: 0px; */
+}
+
+.kontak_admin {
+    float: unset;
+}
+
+p {}
+
+.nama_admin {
+    text-align: left;
+    padding: 1px 1px;
+}
+
+p.justify-content {float: left;padding: 0em 1em;}
+
+
+div#kontak_admin {
+    width: 340px;
+    height: auto;
+    padding: 10px 10px;
+    margin: 0px;
+    border-bottom: 3px solid black;
+}
+
+div#Media\ Sosial {
+    float: left;
+    padding: 10px 0px;
+    margin: 0px -7px;
+}
+
+img#logoinsta {
+    height: auto;
+    width: 61px;
+    padding: 0px 3px;
+    margin: -6px;
+    fle: row;
+}
+
+img#logomail {
+    width: 30px;
+    height: auto;
+    padding: 0px 14px;
+}
+
+
+
+
+img {}
+
+.graphcomment-button {
+    margin-top: -12px;
+}
+
+a#whatsapp1 {
+    background: greenyellow;
+    border-radius: 3px;
+    font-weight: 700;
+    margin: 20px;
+    align-self: center;
+    font-style: oblique;
+}
+
+a#whatsapp2 {
+    background: greenyellow;
+    border-radius: 3px;
+    font-weight: 700;
+    margin: 20px;
+    align-self: center;
+    margin: 0px 57px;
+    font-style: oblique;
+}
+
+a#whatsapp3 {
+    background: greenyellow;
+    border-radius: 3px;
+    font-weight: 700;
+    margin: 20px;
+    align-self: center;
+    margin: 0px 30px;
+    font-style: oblique;
+}
+
+a#whatsapp4 {
+    background: greenyellow;
+    border-radius: 3px;
+    font-weight: 700;
+    margin: 20px;
+    align-self: center;
+    margin: 0px 57px;
+    font-style: oblique;
+}
+
+div#nama_admin {
+    text-align: end;
+}
+
+p {}
+
+div#tentang {
+    padding: 10px 20px;
+}
+
+a#copyright {
+    text-decoration-line: none;
+    color: white;
+}
+
+p#justify-content {
+}
+
+h6 {}
+
+p#set {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+div#tentang {}
+
+a#copyright:visited {
+    color: white;
+}
+
+div#sot {padding: 0px 20px;}
+
+div#sot1 {
+    padding: 5px 18px;
+}
+
+div#copyright {border-top: 3px solid black;height: 10px;padding: 10px 10px;margin-top: -2px;}
+
+p#nama {}
+
+p#justify-content {
+    font-size: larger;
+}
+
+a#whatsapp1:visited {
+    color: white;
+}
+
+a#whatsapp2:visited {
+    color: blue;
+}
+
+a#whatsapp3:visited {
+    color: blue;
+}
+
+a#whatsapp4:visited {
+    color: blue;
+
+}
